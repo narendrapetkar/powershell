@@ -1,0 +1,29 @@
+Installation :
+
+custom module resource : Install-Module -CimResourceUri <URI>
+
+Writing own modules : 
+
+you can use existing code / write your own code as modules which can be re-used.
+
+module file extension : *.psm1
+
+> $ENV:psmodulepath
+this command will give lists of powershell module paths where you can keep your modules.
+Types of paths :
+    1. path for modules common to system
+    2. path for user's specific module
+
+# if the module is placed in one of the module paths directory, 
+you do not need to explicitly import the module (powershell 3.0+)
+
+# If the module is not placed in any of the given paths, 
+you need to provide the path to the module to "Import-Module" command
+
+# you can write module help file with a multiline comment as follows
+<#
+Any number of lines can be included in comments here.
+#>
+
+# you can also use tags inside the comment like .SYNOPSIS, .DESCRIPTION, and .EXAMPLE.
+

@@ -1,0 +1,28 @@
+> $psversiontable
+gives the version of powershell utility
+
+> help *service*
+search help about cmdlets/functions that contain string "service"
+
+> help Get-service -online
+opens the browser to find online help for this module
+
+# examples are inbuilt in help pages
+
+> Show-Command Get-ChildItem
+opens up a UI for filling in the parameters
+
+> Get-Command
+Gets all commands.
+
+> Get-Process | Get-Member
+Gets the properties and methods of objects.
+notice the type name
+
+# any command that modifies system state supports -whatif / -confirm parameter
+
+# difficulty in using powershell is not the syntax 
+but knowledge of the actual technology that is worked upon by using powershell
+
+
+

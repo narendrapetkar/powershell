@@ -1,0 +1,10 @@
+powershell is a task automation and configuration management framework from microsoft
+
+tasks are performed by "cmdlet" 
+
+cmdlets are .net framework class objects
+
+commands can be written and run in powershell console and scripts can be written and debugged with powershell ISE tool
+
+cmdlets take objects as input and not text as command prompt commands do. these objects can be used in the pipelining
+
