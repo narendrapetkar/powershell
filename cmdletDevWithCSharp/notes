@@ -1,0 +1,9 @@
+# create a new class library :
+> dotnet new classlib --name firstCmdlet
+
+# create a new global json which specifies .net core sdk version
+> dotnet new globaljson
+
+# adding powershell standard library package to the project
+> dotnet add package PowerShellStandard.Library
+
